@@ -1,6 +1,7 @@
 ﻿// 1. Напишите программу, которая на вход принимает два целых числа и проверяет, 
 //    является ли первое число квадратом второго.
 
+
 Console.Write("Enter a number 1: ");
 int b1 = int.Parse(Console.ReadLine()!);
 Console.Write("Enter a number 2: ");
