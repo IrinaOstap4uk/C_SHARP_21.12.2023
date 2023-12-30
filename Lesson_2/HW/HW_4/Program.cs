@@ -2,35 +2,16 @@
 //    натуральное число N, а на выходе показывает его
 //    цифры через запятую.
 
+Console.WriteLine("Введите число");
+
 int N = int.Parse(Console.ReadLine()!);
 
-string = new string(num);
-while (string == new string(num))
-{ N
-
-
+string (N) = new string(num);
+while (string /(N) == new string(num))
+{
+    count << N % 10;
+    Console.WriteLine(string);
+    Console.WriteLine(" , ");
+    
 return 0;
 }
-
-
-
-
-while (play_again == "Y" or "y")
-{ cout << "it worked!";
-  cout << "Would you like to play again? (Y or N)";
-  getline (cin, play_again);
-  cout << play_again;
-}
-
-}
-
-string = new string(num);
-
-
-Console.WriteLine(a/100*10 + a%10);
-
-
-
-Console.WriteLine(N);
-Console.WriteLine(" , ");
-
