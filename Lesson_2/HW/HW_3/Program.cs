@@ -5,10 +5,12 @@
 Console.Write("Введите целое двухзначное число");
 int A = int.Parse(Console.ReadLine()!);
 
-if (A >= 10 && A <= 99)
-    int num1 = A / 10 == max;
+if (A >= 10 && A <= 99)    
+    int num1 = A / 10;
     int num2 = A % 10;
-    Console.WriteLine("max");
 
-else 
-    Console.WriteLine("num2");
+else if (num1 >= num2)
+    Console.WriteLine(num1);
+
+else
+    Console.WriteLine(num2);
