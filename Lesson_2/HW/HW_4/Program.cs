@@ -4,14 +4,15 @@
 
 Console.WriteLine("Введите число");
 
-int N = int.Parse(Console.ReadLine()!);
+int num = int.Parse(Console.ReadLine()!);
 
-string (N) = new string(num);
-while (string /(N) == new string(num))
+while (true)
 {
-    count << N % 10;
-    Console.WriteLine(string);
-    Console.WriteLine(" , ");
+    i = i + num % 10 + " , ";
+    num /= 10;    
     
 return 0;
 }
+    string == new string(num);
+    Console.WriteLine(string);
+
